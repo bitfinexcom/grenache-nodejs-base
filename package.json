@@ -1,0 +1,50 @@
+{
+  "name": "grenache-nodejs-base",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Granache Grape",
+  "author": "prdn <paolo@bitfinex.com> (https://bitfinex.com/)",
+  "keywords": [
+    "grenache",
+    "kademlia",
+    "nodejs",
+    "micro-services"
+  ],
+  "dependencies": {
+    "async": "~1.5.2",
+    "debug": "~2.2.0",
+    "lodash": "~4.6.1",
+    "lru": "^2.0.0",
+    "uuid": "^2.0.1",
+    "underscore.string": "~3.2.3",
+    "ws": "~1.0.1"
+  },
+  "engine": {
+    "node": ">=0.10"
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  },
+  "scripts": {
+    "test": "make test",
+    "lint": "eslint --config .eslintrc --fix index.js lib/ test/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfinexcom/grenache-nodejs-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/grenache-nodejs-base/issues"
+  },
+  "homepage": "https://github.com/bitfinexcom/grenache-nodejs-base",
+  "optionalDependencies": {
+    "eslint": "~1.6.0"
+  }
+}
