@@ -1,8 +1,8 @@
 {
   "name": "grenache-nodejs-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
-  "description": "Granache Grape",
+  "description": "Granache Node.js base",
   "author": "prdn <paolo@bitfinex.com> (https://bitfinex.com/)",
   "keywords": [
     "grenache",
@@ -11,7 +11,7 @@
     "micro-services"
   ],
   "dependencies": {
-    "async": "~2.0.0-rc.5",
+    "async": "~2.0.0-rc.6",
     "debug": "~2.2.0",
     "lodash": "~4.13.1",
     "lru": "^2.0.0",
