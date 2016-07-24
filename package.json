@@ -1,6 +1,6 @@
 {
   "name": "grenache-nodejs-base",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "Granache Node.js base",
   "author": "prdn <paolo@bitfinex.com> (https://bitfinex.com/)",
@@ -11,11 +11,11 @@
     "micro-services"
   ],
   "dependencies": {
-    "async": "~2.0.0",
+    "async": "~2.0.1",
     "debug": "~2.2.0",
     "lodash": "~4.13.1",
-    "lru": "^2.0.0",
-    "uuid": "^2.0.1",
+    "lru": "~3.0.0",
+    "uuid": "~2.0.1",
     "underscore.string": "~3.3.4",
     "ws": "~1.1.0"
   },
