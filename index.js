@@ -1,3 +1,3 @@
-module.exports.Link = require('./lib/Link');
-module.exports.Client = require('./lib/Client');
-module.exports.Transport = require('./lib/Transport');
+module.exports.Link = require('./lib/Link')
+module.exports.Peer = require('./lib/Peer')
+module.exports.Transport = require('./lib/Transport')
