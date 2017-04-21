@@ -1,3 +1,6 @@
+module.exports.Kueue = require('./lib/Kueue')
 module.exports.Link = require('./lib/Link')
 module.exports.Peer = require('./lib/Peer')
+module.exports.PeerRPC = require('./lib/PeerRPC')
 module.exports.Transport = require('./lib/Transport')
+module.exports.TransportRPC = require('./lib/TransportRPC')
