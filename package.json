@@ -1,6 +1,6 @@
 {
   "name": "grenache-nodejs-base",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "private": false,
   "description": "Granache Node.js base",
   "author": "prdn <paolo@bitfinex.com> (https://bitfinex.com/)",
