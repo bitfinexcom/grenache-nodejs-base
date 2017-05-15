@@ -28,11 +28,16 @@
   },
   "devDependencies": {
     "chai": "~3.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
     "mocha": "~2.2.5"
   },
   "scripts": {
-    "test": "make test",
-    "lint": "eslint --config .eslintrc --fix index.js lib/ test/"
+    "test": "make test"
   },
   "license": "MIT",
   "repository": {
@@ -42,8 +47,5 @@
   "bugs": {
     "url": "https://github.com/bitfinexcom/grenache-nodejs-base/issues"
   },
-  "homepage": "https://github.com/bitfinexcom/grenache-nodejs-base",
-  "optionalDependencies": {
-    "eslint": "~1.6.0"
-  }
+  "homepage": "https://github.com/bitfinexcom/grenache-nodejs-base"
 }
