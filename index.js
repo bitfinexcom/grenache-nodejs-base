@@ -1,5 +1,3 @@
-module.exports.Kueue = require('./lib/Kueue')
-module.exports.Link = require('./lib/Link')
 module.exports.Peer = require('./lib/Peer')
 module.exports.PeerRPCServer = require('./lib/PeerRPCServer')
 module.exports.PeerRPCClient = require('./lib/PeerRPCClient')
