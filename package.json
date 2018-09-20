@@ -12,14 +12,12 @@
   ],
   "dependencies": {
     "async": "^2.6.0",
-    "debug": "^2.2.0",
     "lodash": "^4.17.10",
-    "lru": "^3.1.0",
     "uuid": "^3.0.1"
   },
   "main": "index.js",
   "devDependencies": {
-    "standard": "^10.0.2"
+    "standard": "^12.0.0"
   },
   "scripts": {
     "test": "npm run lint",
