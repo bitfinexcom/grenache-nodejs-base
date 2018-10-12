@@ -12,7 +12,9 @@
   ],
   "dependencies": {
     "async": "^2.6.1",
+    "duplexify": "^3.6.0",
     "lodash": "^4.17.10",
+    "pump": "^3.0.0",
     "uuid": "^3.0.1"
   },
   "main": "index.js",
