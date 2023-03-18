@@ -11,11 +11,11 @@
     "micro-services"
   ],
   "dependencies": {
-    "async": "^2.6.1",
-    "duplexify": "^3.6.0",
-    "lodash": "^4.17.11",
+    "async": "^3.2.4",
+    "duplexify": "^4.1.2",
+    "lodash": "^4.17.21",
     "pump": "^3.0.0",
-    "uuid": "^3.0.1"
+    "uuid": "^9.0.0"
   },
   "main": "index.js",
   "devDependencies": {
