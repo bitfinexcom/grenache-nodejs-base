@@ -11,9 +11,9 @@
     "micro-services"
   ],
   "dependencies": {
+    "@bitfinexcom/lib-js-util-base": "git+https://github.com/bitfinexcom/lib-js-util-base#v1.20.0",
     "async": "3.2.6",
     "duplexify": "4.1.3",
-    "lodash": "4.17.21",
     "pump": "3.0.2",
     "uuid": "11.1.0"
   },
