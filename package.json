@@ -10,6 +10,9 @@
     "nodejs",
     "micro-services"
   ],
+  "engine": {
+    "node": ">=16.0"
+  },
   "dependencies": {
     "@bitfinexcom/lib-js-util-base": "git+https://github.com/bitfinexcom/lib-js-util-base#v1.20.0",
     "async": "3.2.6",
